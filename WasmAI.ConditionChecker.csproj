@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Update="*.md">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<PropertyGroup>
+		<PackageId> WasmAI.ConditionChecker</PackageId>
+		<Version>1.0.0</Version>
+
+		<Authors>Anas Al-Tawil</Authors>
+
+		<Company>GitHub</Company>
+		<PackageDescription>
+
+			The WasmAI.ConditionChecker library is a robust framework designed to validate models and conditions in your application. It allows you to define, check, and manage validation rules using a modular and extensible approach. This library makes it easy to integrate condition-based checks and validations into your models, ensuring that data integrity is maintained across your system.
+		</PackageDescription>
+		<RepositoryUrl>
+			
+		</RepositoryUrl>
+	</PropertyGroup>
+	
+
+</Project>
