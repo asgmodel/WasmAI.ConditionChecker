@@ -26,6 +26,10 @@ To install via NuGet, run the following command in the **Package Manager Console
 ```bash
 Install-Package WasmAI.ConditionChecker
 ```
+or
+```bash
+dotnet add package WasmAI.ConditionChecker --version 1.0.0
+```
 
 Alternatively, you can clone or download the source code and add the project to your solution.
 
@@ -235,6 +239,15 @@ public class ModelValidator : ValidatorContext<ModelAi, ModelValidatorStates>
 
 ---
 
+---
+
+## Related Packages
+
+For additional functionality, check out our other library, [WasmAI.ConditionChecker](https://www.nuget.org/packages/WasmAI.ConditionChecker/#readme-body-tab).
+
+This package provides tools for condition checking across different application domains and can be used in conjunction with ` WasmAI.ConditionChecker` for more robust applications.
+
+---
 ## **License**
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
