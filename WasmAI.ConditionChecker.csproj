@@ -23,10 +23,10 @@
 
 			The WasmAI.ConditionChecker library is a robust framework designed to validate models and conditions in your application. It allows you to define, check, and manage validation rules using a modular and extensible approach. This library makes it easy to integrate condition-based checks and validations into your models, ensuring that data integrity is maintained across your system.
 		</PackageDescription>
-		<RepositoryUrl>
-			https://github.com/asgmodel/WasmAI.ConditionChecker.git
-		</RepositoryUrl>
-	<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/asgmodel/WasmAI.ConditionChecker.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 	
 
